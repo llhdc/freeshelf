@@ -1,5 +1,5 @@
 <p id="notice"><%= notice %></p>
-
+<h1><%= @book.title %> Details </h1>
 <p>
   <strong>Title:</strong>
   <%= @book.title %>
@@ -17,7 +17,7 @@
 
 <p>
   <strong>Url:</strong>
-  <%= @book.URL %>
+  <%= link_to "Profile on Goodreads", @book.URL %>
 </p>
 
 <%= link_to 'Edit', edit_book_path(@book) %> |
