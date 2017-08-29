@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+
+h1, table {
+  font-family: 'Crimson Text', serif;
+}
+
+thead {
+  background-color: lightgrey;
+}
+
+td {
+  font-family: 'Baloo Tammudu', cursive;
+  border: solid black 1px;
+}
+
+td:hover {
+  background-color: black;
+  color: white
+}
+
+td#url {
+  color: red;
+  word-wrap: break-word;
+  width: 50px;
+}
